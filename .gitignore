@@ -1,8 +1,17 @@
 # 忽略所有文件
 *
 
-# 反选想跟踪的文件夹
-#!.gitignore
+# 跟踪 .gitignore
+!.gitignore
+
+# 反选 AI-ML-DL-RL 的 GPU 文件夹及其内容
 !AI-ML-DL-RL/GPU&DEEPLEARNING/
+!AI-ML-DL-RL/GPU&DEEPLEARNING/**
+
+# 反选 CodingBasics/C++/大一思维导图 及其内容
 !CodingBasics/C++/大一思维导图/
+!CodingBasics/C++/大一思维导图/**
+
+# 反选 ME 及其内容
 !ME/
+!ME/**
