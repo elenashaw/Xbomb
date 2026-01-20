@@ -3,13 +3,13 @@
 !.gitignore
 
 # --------------------------------
-# 2. 反选 ME (这个你已经成功了)
+# 2. 反选 ME
 # --------------------------------
 !ME/
 !ME/**
 
 # --------------------------------
-# 3. 反选 GPU-DEEPLEARNING (逐级放行)
+# 3. 反选 GPU-DEEPLEARNING
 # --------------------------------
 # 第一级：放行 AI-ML-DL-RL 文件夹本身，但忽略其下所有内容
 !AI-ML-DL-RL/
@@ -18,6 +18,9 @@ AI-ML-DL-RL/*
 # 第二级：放行其中的 GPU 文件夹
 !AI-ML-DL-RL/GPU-DEEPLEARNING/
 !AI-ML-DL-RL/GPU-DEEPLEARNING/**
+!AI-ML-DL-RL/ROS2/
+!AI-ML-DL-RL/ROS2/**
+
 
 # --------------------------------
 # 4. 反选 C++ mindmap (逐级放行)
