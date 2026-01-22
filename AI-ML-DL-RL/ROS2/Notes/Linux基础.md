@@ -112,5 +112,39 @@ sudo apt install git
 * ```bash  
   cp file1.txt file2.txt  //创建 file1.txt 的副本，命名为 file2.txt
   ```
-  
-* 
+
+
+
+
+
+## 一些工具
+
+### terminator
+
+* ctrl+shift+o: 水平分割
+* ctrl+shift+E: 垂直分割
+* ctrl+shift+W：退出窗口
+
+
+
+### VSCode
+
+* code: 开启
+* code . ：在当前文件夹下打开，通常在src下打开
+* 插件
+  * ROS
+  * CMAKE
+
+
+
+### gedit
+
+* 文本编辑器
+* 每次对话自动运行source bash: 
+  * `gedit .bashrc`
+  * 把`source /opt/ros/jazzy/setup.bash`加到最后
+
+### git
+
+
+
